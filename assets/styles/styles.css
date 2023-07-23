@@ -112,4 +112,7 @@ body{
 #inputSearch{
   width: 12rem;
 }
+#detailCard{
+  object-fit: contain;
+}
 
