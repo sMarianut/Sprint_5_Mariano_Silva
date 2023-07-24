@@ -20,7 +20,6 @@ createApp({
                 this.parameters = new URLSearchParams(this.parameter)
                 this.idparameter = this.parameters.get('id')
                 this.finder = this.events.find(dato => dato._id == this.idparameter)
-                console.log(this.finder);
             })
             .catch(error => console.error(error))
     }

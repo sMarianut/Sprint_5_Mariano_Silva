@@ -21,7 +21,7 @@ const options = {
                 this.crossFilter = datosEventos.events
                 this.categories = [... new Set(this.eventos.map(events => events.category))]
                 console.log(this.categories);
-                //console.log(this.eventos);
+
 
             })
             .catch(error => console.error(error))
